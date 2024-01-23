@@ -34,11 +34,13 @@ public class TipCalculator {
     }
 
     public static void calculation(int splitPeople, double check, String quality) {
+        //tip percentages
         double excellent = 0.25;
         double great = 0.20;
         double good = 0.15;
         double fair = 0.10;
         double poor = 0.05;
+        //calculations
         double totalTip = 0;
         double perPeronTip = 0;
         double totalPerPerson = 0;
