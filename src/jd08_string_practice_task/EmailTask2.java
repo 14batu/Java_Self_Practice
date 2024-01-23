@@ -28,10 +28,14 @@ public class EmailTask2 {
         String lastName = namePart.substring(underscoreIndex + 1,atIndex);
 
 
-        String newFirstName = firstName.replace(firstName.charAt(0),firstName.toUpperCase().charAt(0));
-        String newLastName = lastName.replace(lastName.charAt(0),lastName.toUpperCase().charAt(0));
+       // String newFirstName = firstName.replace(firstName.charAt(0),firstName.toUpperCase().charAt(0));
+       // String newLastName = lastName.replace(lastName.charAt(0),lastName.toUpperCase().charAt(0));
 
-        System.out.println("First Name : " + newFirstName + "\n" + "Last Name : " + newLastName + "\n" + "Domain Name : " + domainPart);
 
+        System.out.println("First Name : " + formatString(firstName) + "\n" + "Last Name : " + formatString(lastName) + "\n" + "Domain Name : " + domainPart);
+
+    }
+    public  static String formatString(String email){
+        return email.substring(0,1).toUpperCase() + email.substring(1).toLowerCase();
     }
 }
