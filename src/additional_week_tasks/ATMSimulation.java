@@ -1,4 +1,4 @@
-package additinoal_tasks_week;
+package additional_week_tasks;
 import java.util.Scanner;
 
 public class ATMSimulation {
