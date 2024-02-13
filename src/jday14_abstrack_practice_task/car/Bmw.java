@@ -1,4 +1,4 @@
-package jday14_abstrack_practice_task;
+package jday14_abstrack_practice_task.car;
 
 public class Bmw extends Car{
     public Bmw(String make, String model, int year, double price, String color) {

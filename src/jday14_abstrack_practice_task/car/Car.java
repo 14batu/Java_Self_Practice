@@ -1,4 +1,4 @@
-package jday14_abstrack_practice_task;
+package jday14_abstrack_practice_task.car;
 
 public abstract class Car {
     private final String make;

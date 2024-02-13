@@ -1,4 +1,4 @@
-package jday14_abstrack_practice_task;
+package jday14_abstrack_practice_task.car;
 
 public class CarClient {
     public static void main(String[] args) {
@@ -8,7 +8,7 @@ public class CarClient {
         toyota.drive();
         toyota.star();
 
-        Tesla tesla = new Tesla();
+        Tesla tesla = new Tesla("Tesla","a4",2021,35_000,"red");
         tesla.autoPark();
 
 
